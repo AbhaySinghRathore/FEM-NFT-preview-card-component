@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&family=Outfit:wght@300&display=swap');
+
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+
+    body{
+      background-color: hsl(217, 54%, 11%);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      font-family: 'Outfit', sans-serif;
+    }
+
+    .main-container{
+      width: 300px;
+      height: 550px;
+      padding: 14px 10px;
+      background-color: hsl(216, 50%, 16%);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      border-radius: 10px;
+    }
+
+    .image-container{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 10px;
+      flex:1
+
+    }
+    .content-container{
+      display:flex;
+      flex-direction: column;
+      padding: 10px;
+      flex:1;
+      
+    }
+
+    #main-image{
+      border-radius: 8px;
+      object-fit: cover;
+      width:265px;
+      height:265px
+
+    }
+
+    .sub-content{
+      display:flex;
+      flex-direction: column;
+      border-bottom: 1.5px solid gray;
+    }
+
+    .sub-content h2{
+      padding: 10px 0px;
+      flex:1;
+      color:white;
+      font-size: 18px;
+      font-weight: 600;
+    }
+
+    .heading:hover{
+        color:cyan;
+        cursor: pointer;
+    }
+    #para1{
+      padding: 10px 0px;
+      flex:1;
+      color:rgb(175, 197, 197);
+      font-size: 16px;
+      font-weight: 300;
+
+    }
+    .sub-content div{
+      padding: 6px 0px;
+      flex:1;
+      display: flex;
+      flex-direction: row;
+      flex: 1;
+      
+    }
+
+    #item1{
+      color: hsl(178, 100%, 50%);
+      font-size: 16px;
+      font-weight: 600;
+    }
+    #item2{
+        color: white;
+        font-size: 16px;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    #para2{
+      text-align: center;
+      margin: 0 0 0 6px;
+    }
+    #para3{
+      text-align: end;
+      margin: 0 0 0 6px;
+    }
+
+    hr{
+      color:rgb(90, 87, 87);
+    }
+
+    .creation{
+      padding: 10px 0px;
+      color: white;
+      display: flex;
+      flex-direction: row;
+      flex: 1;
+      align-items: center;
+    }
+
+    #para4{
+      text-align: center;
+      padding: 6px;
+    }
+
+    #para4 span:hover{
+        color:cyan;
+        cursor: pointer;
+    }
